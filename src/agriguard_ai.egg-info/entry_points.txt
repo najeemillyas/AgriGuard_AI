@@ -1,0 +1,3 @@
+[console_scripts]
+agriguard-evaluate = agriguard.observability.metrics:cli_evaluate
+agriguard-ingest = agriguard.rag.vector_store:cli_ingest

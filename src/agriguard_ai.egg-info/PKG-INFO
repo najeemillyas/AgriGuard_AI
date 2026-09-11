@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: agriguard-ai
+Version: 0.1.0
+Summary: Grounded and safety-aware multi-agent crop protection assistant
+Requires-Python: >=3.11
+Requires-Dist: openai>=1.100.0
+Requires-Dist: pydantic>=2.10.0
+Requires-Dist: PyYAML>=6.0.0
+Requires-Dist: streamlit>=1.40.0
+Requires-Dist: fastmcp>=2.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: coverage>=7.0.0; extra == "dev"

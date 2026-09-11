@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agriguard-ai"
+version = "0.1.0"
+description = "Grounded and safety-aware multi-agent crop protection assistant"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.100.0",
+  "pydantic>=2.10.0",
+  "PyYAML>=6.0.0",
+  "streamlit>=1.40.0",
+  "fastmcp>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "coverage>=7.0.0"]
+
+[project.scripts]
+agriguard-ingest = "agriguard.rag.vector_store:cli_ingest"
+agriguard-evaluate = "agriguard.observability.metrics:cli_evaluate"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

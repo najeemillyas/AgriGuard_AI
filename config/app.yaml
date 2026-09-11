@@ -1,0 +1,13 @@
+application:
+  name: AgriGuard AI
+  environment: development
+  supported_crops:
+    - chrysanthemum
+    - tomato
+    - chilli
+  supported_categories:
+    - insect_attack
+    - fungal_disease
+    - nutrient_deficiency
+    - unclear
+

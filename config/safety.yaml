@@ -1,0 +1,10 @@
+confidence:
+  approve_minimum: 0.70
+  warning_minimum: 0.50
+  block_below: 0.50
+routing:
+  red_flag_overrides_confidence: true
+  inadequate_evidence_action: escalate
+  conflicting_evidence_action: escalate
+  unsupported_crop_action: escalate
+
