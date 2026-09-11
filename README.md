@@ -499,6 +499,22 @@ python -m streamlit run src/agriguard/ui/app.py
 
 After copying `.env.example`, add the existing OpenAI key to `.env.local` when OpenAI-assisted drafting is required.
 
-## 22. Licence and contribution note
+## 22. Author, ownership, licence, and contributions
 
-Add the licence selected by the repository owner before public distribution. Contributors should preserve safety controls, keep source metadata attached to evidence, add or update requirement-linked tests for behavioural changes, and ensure that no credentials or private farm data are committed.
+### Author and project maintainer
+
+**Najeem M Illyas**  
+**Towncraft Technologies Pvt Ltd**  
+**Research Scholar, Amrita School of Computing, Amrita Vishwa Vidyapeetham**
+
+AgriGuard AI was designed and developed as an Agentic AI hackathon project under the direction of Najeem M Illyas. Towncraft Technologies Pvt Ltd is the organisational owner associated with the project. The academic affiliation is provided for author identification and does not, by itself, imply ownership, sponsorship, approval, or endorsement by Amrita School of Computing or Amrita Vishwa Vidyapeetham.
+
+### Copyright and licence
+
+Copyright © 2026 Najeem M Illyas and Towncraft Technologies Pvt Ltd. All rights reserved unless a separate licence file explicitly grants additional permissions.
+
+Before public reuse, redistribution, or modification is permitted, the repository owner must select and add an appropriate `LICENSE` file. Until that licence is added, public visibility of the source code should not be interpreted as permission to copy, modify, redistribute, sublicense, or use it commercially.
+
+### Contribution requirements
+
+Contributors must preserve the application's safety controls, keep source metadata attached to retrieved evidence, and add or update requirement-linked tests whenever behaviour changes. Contributions must not introduce credentials, API keys, personal information, private farm data, generated case records, databases, or trace files into the repository. All contributions remain subject to review and acceptance by the project owner.
